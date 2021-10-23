@@ -5,7 +5,9 @@ I have often found when I am doing a tech interview as a canidate the following 
 * The interviewer asks very specific questions about the tasks I did for companies I worked for. These questions can often times be too specific and answering their questions could breach an NDA.
 * I honestly cannot remember exactly how I did something AI related from several years ago in great detail
 
-And as someone who has also been a hiring manager, I am tasked to interview canidates, including tech interviews. I thought it might be great to come up with some small challenges we could go through to aid canidates. 
+And as someone who has also been a hiring manager, I am tasked to interview canidates, including tech interviews.
+
+I thought it might be great to come up with some small challenges we could go through to aid canidates and interviewers alike. 
 
 ##  NLU Intent classifiers
 Strangely I couldn't find an example of building a basic intent matcher used in an NLU engine for voice assistants, where utterances (ie user commands/questions) are classified by their intent category. So I decided to make a simple one for everyone out there. 
