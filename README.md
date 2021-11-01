@@ -11,7 +11,7 @@ I thought it might be great to come up with some small challenges we could go th
 
 ##  NLU Intent classifiers
 Strangely I couldn't find an example of building a basic intent matcher used in an NLU engine for voice assistants, where utterances (ie user commands/questions) are classified by their intent category. So I decided to make a simple one for everyone out there. 
-`NLU_Intent_matching.ipynb` explores the idea of intent matching on utterances. Using the [NLU Evaluation Dataset](https://github.com/xliuhw/NLU-Evaluation-Data) as a bases of data, both a word embedding approach (using Word2Vec) and a TFIDF approach are explored using the following algorithms to train intent classifiers:
+`NLU_Intent_matching.ipynb` explores the idea of intent matching on utterances and entity extraction. Using the [NLU Evaluation Dataset](https://github.com/xliuhw/NLU-Evaluation-Data) as a bases of data, both a word embedding approach (using Word2Vec) and a TFIDF approach are explored using the following algorithms to train intent classifiers:
 * [(Gaussian) Naive Bayes Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.naive_bayes.GaussianNB.html)
 * [Decision Tree Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
 * [AdaBoost Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.AdaBoostClassifier.html)
