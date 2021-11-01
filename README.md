@@ -36,7 +36,8 @@ More may be added in the future.
 * Are there any other performance hacks?
 
 
-To complete the intent classifier, entity tagging will also be included in the next update, this will demonstrate all of the basic things an NLU engine must do.
+### Entity extraction (Named Entity Recognition)
+This notebook uses conditional random fields (CRFs) for entity extraction.
 
 
 And there is more to come, whenever I find time. ;)
